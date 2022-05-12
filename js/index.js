@@ -4,6 +4,7 @@ function validar () {
 }
 
 
+
 function abrirMenu() {
   var menu = document.getElementById("seccion-menu-mobile");
   menu.classList.add("mostrar");
@@ -44,7 +45,7 @@ function enviarFormulario(e) {
   recolectarDatos();
   mostrarFeedback();
   resetearFormulario();
-  
+
 }
 
 function cerrarFeedback () {
